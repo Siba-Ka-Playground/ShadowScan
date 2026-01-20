@@ -18,6 +18,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 3. Install Dependencies
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 pip install .
 
 # 4. Download NLP Models
