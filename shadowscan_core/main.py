@@ -190,27 +190,27 @@ def print_guide():
 This tool aggregates 5 Pillars of OSINT into a single Offensive scan.
 
 [bold yellow]1. BASIC USER SCAN [/bold yellow]
-   [green]Command:[/green] python main.py -u <username>
-   [dim]Example: python main.py -u hacker_007[/dim]
+   [green]Command:[/green] shadowscan -u <username>
+   [dim]Example: shadowscan -u hacker_007[/dim]
    [i]Scans public code commits, events, and runs Reverse OSINT checks.[/i]
 
 [bold yellow]2. DEEP REPO VULNERABILITY SCAN [/bold yellow]
-   [green]Command:[/green] python main.py -r <github_link>
-   [dim]Example: python main.py -r https://github.com/facebook/react[/dim]
+   [green]Command:[/green] shadowscan -r <github_link>
+   [dim]Example: shadowscan -r https://github.com/facebook/react[/dim]
    [i]Scans specific repo files for leaked API keys, passwords, and bad dependencies.[/i]
 
 [bold yellow]3. VISUAL GEOLOCATION SCAN [/bold yellow]
-   [green]Command:[/green] python main.py -i <path_to_image>
-   [dim]Example: python main.py -i assets/photo.jpg[/dim]
+   [green]Command:[/green] shadowscan -i <path_to_image>
+   [dim]Example: shadowscan -i <path_to_image>[/dim]
    [i]Extracts EXIF metadata (GPS, Device Info) from local images.[/i]
 
 [bold yellow]4. SOCIAL MEDIA THREAT ANALYSIS [/bold yellow]
-   [green]Command:[/green] python main.py -i <image> -c <caption>
-   [dim]Example: python main.py -i assets/screen.png -c "I hate my boss!"[/dim]
+   [green]Command:[/green] shadowscan -i <image> -c <caption>
+   [dim]Example: shadowscan -i <path_to_image> -c "I hate my boss!"[/dim]
    [i]Uses NLP to read the caption and OCR to read text INSIDE the image for leaks.[/i]
 
 [bold yellow]5. FULL OFFENSIVE MODE (All Pillars)[/bold yellow]
-   [green]Command:[/green] python main.py -u <user> -r <repo> -i <image> -c <caption>
+   [green]Command:[/green] shadowscan -u <user> -r <repo> -i <image> -c <caption>
     """
     console.print(Panel(guide, title="[bold magenta]Operational Manual[/bold magenta]", border_style="blue"))
 
