@@ -10,12 +10,12 @@ from rich.text import Text
 
 # --- MODULES ---
 try:
-    from modules.code_miner import CodeMiner
-    from modules.repo_scanner import RepoScanner
-    from modules.visual_intel import VisualIntel
-    from modules.social_analyzer import SocialPostAnalyzer
-    from modules.reverse_osint import ReverseOSINT
-    from modules.risk_assessment import RiskScorer, EthicsPolicy
+    from .modules.code_miner import CodeMiner
+    from .modules.repo_scanner import RepoScanner
+    from .modules.visual_intel import VisualIntel
+    from .modules.social_analyzer import SocialPostAnalyzer
+    from .modules.reverse_osint import ReverseOSINT
+    from .modules.risk_assessment import RiskScorer, EthicsPolicy
 except ImportError as e:
     print(f"CRITICAL ERROR: Missing module files. {e}")
     sys.exit(1)
