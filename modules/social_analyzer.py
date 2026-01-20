@@ -1,5 +1,5 @@
-# import easyocr
-# import spacy
+import easyocr
+import spacy
 import re
 import pyap
 import os
