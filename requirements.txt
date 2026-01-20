@@ -1,0 +1,14 @@
+requests
+rich
+pyfiglet
+beautifulsoup4
+pillow
+exifread
+textblob
+spacy
+easyocr
+colorama
+thefuzz
+python-Levenshtein
+pyap
+pillow-heif
