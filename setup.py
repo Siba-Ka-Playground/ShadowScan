@@ -5,8 +5,10 @@ setup(
     version='1.1',
     description='Offensive OSINT Framework',
     author='Sibasundar Barik',
-    packages=find_packages(),      
-    py_modules=['main'],           
+    packages=find_packages(),
+    # --- THE FIX IS HERE ---
+    py_modules=['main'], 
+    # -----------------------
     install_requires=[
         'requests', 'rich', 'pyfiglet', 'easyocr', 
         'spacy', 'exifread', 'textblob', 'thefuzz', 'pillow-heif'
