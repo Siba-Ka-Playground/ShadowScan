@@ -67,6 +67,10 @@ python3 main.py -g
 
 ### Now you are all done, follow the GUIDE MENU to use ShadowScan smoothly.
 
+## ⚠️ Disclaimer
+
+FOR EDUCATIONAL & AUTHORIZED USE ONLY. This tool is designed for security professionals and researchers to audit their own systems or systems they have explicit permission to test. The authors are not responsible for any misuse of this tool.
+
 ## 📜 License
 
 This project is licensed under the **GNU GPLv3 License**.
