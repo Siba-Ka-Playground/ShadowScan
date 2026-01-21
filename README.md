@@ -49,6 +49,8 @@ Follow the Steps to perform your first scan with ShadowScan.
 source venv/bin/activate
 ```
 
+<img src="assets/image/DashBoard.png" alt="DashBoard" width="300"/>
+
 ```bash
 # 2. Open Help Menu
 python3 main.py -h
