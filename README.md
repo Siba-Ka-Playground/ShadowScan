@@ -30,7 +30,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 3. Install lightweight AI engine
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 # 4. Install Dependencies
 pip install -r requirements.txt --no-cache-dir
