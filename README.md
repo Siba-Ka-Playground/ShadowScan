@@ -65,14 +65,14 @@ python3 main.py -h
 python3 main.py -g
 ```
 
-### Now you are all done, follow the GUIDE MENU to use ShadowScan smoothly.
+### Now you are all done, follow the GUIDE MENU to use ShadowScan smoothly. <br>
 
 ## ⚠️ Disclaimer
 
-FOR EDUCATIONAL & AUTHORIZED USE ONLY. This tool is designed for security professionals and researchers to audit their own systems or systems they have explicit permission to test. The authors are not responsible for any misuse of this tool.
+FOR EDUCATIONAL & AUTHORIZED USE ONLY.<br> This tool is designed for security professionals and researchers to audit their own systems or systems they have explicit permission to test. The authors are not responsible for any misuse of this tool.<br>
 
 ## 📜 License
 
-This project is licensed under the **GNU GPLv3 License**.
+This project is licensed under the **GNU GPLv3 License**.<br>
 You are free to use, modify, and distribute this software, but all modifications must remain open-source. <br>
 **Copyright © 2026 Sibasundar Barik**
