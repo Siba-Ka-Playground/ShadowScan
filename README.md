@@ -42,6 +42,8 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 
 ## 🚀 Run ShadowScan in Kali Linux
 
+<img src="assets/image/DashBoard.png" alt="DashBoard" width="1000"/>
+
 Follow the Steps to perform your first scan with ShadowScan.
 
 ```bash
@@ -49,12 +51,16 @@ Follow the Steps to perform your first scan with ShadowScan.
 source venv/bin/activate
 ```
 
-<img src="assets/image/DashBoard.png" alt="DashBoard" width="1000"/>
+<img src="assets/image/HelpMenu.png" alt="DashBoard" width="1000"/>
 
 ```bash
 # 2. Open Help Menu
 python3 main.py -h
+```
 
+<img src="assets/image/GuideMenu.png" alt="DashBoard" width="1000"/>
+
+```bash
 # 3. Open Guide Menu
 python3 main.py -g
 ```
@@ -64,5 +70,5 @@ python3 main.py -g
 ## 📜 License
 
 This project is licensed under the **GNU GPLv3 License**.
-You are free to use, modify, and distribute this software, but all modifications must remain open-source.
+You are free to use, modify, and distribute this software, but all modifications must remain open-source. <br>
 **Copyright © 2026 Sibasundar Barik**
