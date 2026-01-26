@@ -6,6 +6,8 @@
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Kali-black)
 ![License](https://img.shields.io/badge/license-%20%20GNU%20GPLv3%20-green?style=plastic)
 
+## Explore Video Tutorial: https://youtu.be/o-NcbPz-CAY?si=BJVhO_9hSAL7881q
+
 ## ⚡ Overview
 
 **ShadowScan** is a recursive reconnaissance tool designed for offensive security operations. Unlike traditional scanners that only look at text, ShadowScan fuses three intelligence domains:
